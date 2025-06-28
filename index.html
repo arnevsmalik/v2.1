@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article 0 – India's First Youth-Led Legal Sprint Accelerator</title>
+  <meta name="description" content="Transform your sense of justice into legal expertise. Join Article 0, India's first youth-led legal sprint accelerator for high school students.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- San Francisco font fallback -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    html {
+      box-sizing: border-box;
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      background: #fff;
+      color: #18181b;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+    h1, .hero-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.2rem;
+      color: #18181b;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+    h2, .section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #18181b;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+      text-align: center;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #18181b;
+      margin-bottom: 0.8rem;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+    .section-subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      text-align: center;
+      margin-bottom: 4rem;
+      font-weight: 400;
+      font-family: 'Inter', Arial, sans-serif;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .section, .section-alt {
+      padding: 8rem 0 6rem 0;
+    }
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 64px;
+        right: 0;
+        background: rgba(255,255,255,0.98);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.08);
+        flex-direction: column;
+        width: 220px;
+        padding: 1.5rem 0;
+        gap: 1.5rem;
+        border-radius: 0 0 12px 12px;
+        z-index: 200;
+      }
+      .nav-links.open {
+        display: flex;
+      }
+      .nav-hamburger {
+        display: flex;
+      }
+      .hero-image img, .why-image img {
+        max-width: 100%;
+        height: auto;
+      }
+      .program-highlights, .mentors-grid, .cta-section, .why-section {
+        flex-direction: column;
+        gap: 2rem;
+      }
+      .highlight-card, .mentor-card, .cta-block {
+        max-width: 100%;
+        min-width: 0;
+      }
+      .timeline {
+        gap: 1.5rem;
+      }
+      .timeline-step {
+        flex-direction: column;
+        gap: 0.7rem;
+      }
+      .timeline-dot {
+        margin-top: 0;
+      }
+      .footer {
+        font-size: 0.95rem;
+      }
+      svg {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+      }
+    }
+    @media (max-width: 700px) {
+      .section, .section-alt {
+        padding: 4rem 0 3rem 0;
+      }
+      .container {
+        padding: 0 0.5rem;
+      }
+      h1, .hero-title {
+        font-size: 1.3rem;
+      }
+      h2, .section-title {
+        font-size: 1.1rem;
+      }
+      .section-subtitle {
+        font-size: 1rem;
+      }
+      .program-highlights, .mentors-grid, .cta-section, .why-section {
+        gap: 1.2rem;
+      }
+      .highlight-card, .mentor-card, .cta-block {
+        padding: 1.2rem 0.7rem;
+      }
+      .form input, .form textarea {
+        font-size: 0.98rem;
+        padding: 0.6rem 0.7rem;
+        max-width: 100%;
+      }
+      .form-btn, .cta-btn, .nav-cta, .hero-cta {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+      }
+      .hero-image, .why-image {
+        aspect-ratio: unset;
+        min-height: 120px;
+      }
+      svg {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+      }
+    }
+    /* Color palette */
+    a {
+      color: #FF7F50;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #E66B3D;
+    }
+    .nav-cta, .hero-cta, .cta-btn, .form-btn {
+      background: #FF7F50;
+      color: #fff;
+      border: none;
+      border-radius: 22px;
+      padding: 0.7rem 2rem;
+      font-size: 1.08rem;
+      font-weight: 600;
+      box-shadow: 0 2px 12px 0 rgba(255,127,80,0.10);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      outline: none;
+    }
+    .nav-cta:hover, .hero-cta:hover, .cta-btn:hover, .form-btn:hover {
+      background: #E66B3D;
+      box-shadow: 0 6px 24px 0 rgba(255,127,80,0.16);
+      transform: translateY(-2px) scale(1.04);
+    }
+    .highlight-title, .mentor-role {
+      color: #FF7F50;
+    }
+    .timeline-dot {
+      background: #FF7F50;
+    }
+    .footer a {
+      color: #FF7F50;
+    }
+    .founder-quote {
+      color: #FF7F50;
+      border-left: 4px solid #FF7F50;
+    }
+    /* Light grey accents */
+    .highlight-card, .mentor-card, .form input, .form textarea, .why-image, .hero-image {
+      background: #f8f9fa;
+    }
+    /* Add more vertical spacing between major blocks */
+    .program-highlights, .mentors-grid, .cta-section, .why-section {
+      margin-top: 3.5rem;
+      gap: 2.5rem;
+    }
+    /* Grid alignment for content blocks */
+    .container, .section, .section-alt {
+      display: block;
+    }
+    /* Remove old font-face rules */
+    /* NAVIGATION */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 1px 8px 0 rgba(0,0,0,0.03);
+      transition: background 0.3s;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      height: 48px;
+      min-width: 120px;
+    }
+    .logo-img {
+      height: 68px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+      max-width: 300px;
+      transition: filter 0.2s;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+    }
+    .nav-link {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #222;
+      opacity: 0.85;
+      transition: opacity 0.2s;
+      position: relative;
+    }
+    .nav-link:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 0;
+      background: #ff7f50;
+      transition: width 0.2s;
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+    }
+    .nav-link:hover {
+      opacity: 1;
+    }
+    .nav-link:hover:after {
+      width: 100%;
+    }
+    .nav-cta {
+      background: #ff7f50;
+      color: #fff;
+      border: none;
+      border-radius: 22px;
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px 0 rgba(255,127,80,0.08);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      outline: none;
+    }
+    .nav-cta:hover {
+      background: #e66b3d;
+      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.12);
+      transform: translateY(-2px) scale(1.03);
+    }
+    /* Hamburger */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      gap: 6px;
+    }
+    .nav-hamburger span {
+      display: block;
+      height: 3px;
+      width: 100%;
+      background: #222;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    @media (max-width: 700px) {
+      .logo-img {
+        height: 52px;
+        max-width: 200px;
+      }
+    }
+    /* HERO SECTION */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 90vh;
+      padding: 6rem 0 4rem 0;
+      background: #fafafa;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-content {
+      z-index: 2;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1), transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .hero-subtitle {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #4a4a4a;
+      margin-bottom: 3rem;
+      line-height: 1.6;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-cta {
+      background: #ff7f50;
+      color: #fff;
+      border: none;
+      border-radius: 22px;
+      padding: 0.85rem 2.2rem;
+      font-size: 1.15rem;
+      font-weight: 700;
+      box-shadow: 0 2px 12px 0 rgba(255,127,80,0.10);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      outline: none;
+      margin-bottom: 1.5rem;
+    }
+    .hero-cta:hover {
+      background: #e66b3d;
+      box-shadow: 0 6px 24px 0 rgba(255,127,80,0.16);
+      transform: translateY(-2px) scale(1.04);
+    }
+    .hero-image {
+      width: 100%;
+      max-width: 900px;
+      margin: 2.5rem auto 0 auto;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.10);
+      aspect-ratio: 16/7;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    /* PROGRAM OVERVIEW */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      max-width: 900px;
+      margin: 0 auto 4rem auto;
+    }
+    .timeline-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .timeline-content {
+      flex: 1;
+    }
+    .timeline-title {
+      font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 0.5rem;
+    }
+    .timeline-desc {
+      font-size: 1.05rem;
+      color: #555;
+      margin-bottom: 0.1rem;
+      line-height: 1.6;
+    }
+    .program-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+    .highlight-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px 0 rgba(0,0,0,0.06);
+      padding: 2.5rem 2rem;
+      max-width: 350px;
+      flex: 1 1 280px;
+      text-align: center;
+      transition: box-shadow 0.2s, transform 0.1s;
+      border: 1px solid #f0f0f0;
+    }
+    .highlight-card:hover {
+      box-shadow: 0 12px 40px 0 rgba(255,127,80,0.12);
+      transform: translateY(-3px) scale(1.02);
+    }
+    .highlight-title {
+      font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #ff7f50;
+      margin-bottom: 1rem;
+    }
+    .highlight-desc {
+      font-size: 1.05rem;
+      color: #444;
+      line-height: 1.6;
+    }
+    /* WHY ARTICLE 0 */
+    .why-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+    .why-content {
+      flex: 1 1 400px;
+      min-width: 300px;
+      max-width: 550px;
+    }
+    .why-image {
+      flex: 1 1 350px;
+      min-width: 250px;
+      max-width: 450px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 6px 30px 0 rgba(0,0,0,0.12);
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 4/5;
+    }
+    .why-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .founder-quote {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #ff7f50;
+      margin: 3rem 0 0 0;
+      text-align: left;
+      border-left: 4px solid #ff7f50;
+      padding-left: 1.5rem;
+      line-height: 1.6;
+    }
+    /* MENTOR NETWORK */
+    .mentors-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+    .mentor-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px 0 rgba(0,0,0,0.06);
+      padding: 2.5rem 2rem;
+      max-width: 280px;
+      flex: 1 1 200px;
+      text-align: center;
+      transition: box-shadow 0.2s, transform 0.1s;
+      border: 1px solid #f0f0f0;
+    }
+    .mentor-card:hover {
+      box-shadow: 0 12px 40px 0 rgba(255,127,80,0.12);
+      transform: translateY(-3px) scale(1.02);
+    }
+    .mentor-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1.5rem;
+      background: #e5e7eb;
+      display: inline-block;
+    }
+    .mentor-name {
+      font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 0.3rem;
+    }
+    .mentor-role {
+      font-size: 1rem;
+      color: #ff7f50;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    .mentor-desc {
+      font-size: 0.98rem;
+      color: #555;
+      line-height: 1.6;
+    }
+    /* CTA SECTIONS */
+    .cta-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 4rem 2rem;
+      box-shadow: 0 6px 30px 0 rgba(0,0,0,0.08);
+      border: 1px solid #f0f0f0;
+    }
+    .cta-block {
+      flex: 1 1 350px;
+      min-width: 280px;
+      max-width: 450px;
+      text-align: center;
+    }
+    .cta-title {
+      font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 1rem;
+    }
+    .cta-desc {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    .cta-btn {
+      background: #ff6b35;
+      color: #fff;
+      border: none;
+      border-radius: 22px;
+      padding: 0.7rem 2rem;
+      font-size: 1.08rem;
+      font-weight: 600;
+      box-shadow: 0 2px 12px 0 rgba(255,107,53,0.10);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      outline: none;
+    }
+    .cta-btn:hover {
+      background: #e55a2b;
+      box-shadow: 0 6px 24px 0 rgba(255,107,53,0.16);
+      transform: translateY(-2px) scale(1.04);
+    }
+    /* FORMS */
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      align-items: center;
+    }
+    .form input, .form textarea {
+      width: 100%;
+      max-width: 380px;
+      padding: 0.9rem 1.2rem;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 14px;
+      font-size: 1.05rem;
+      font-family: 'SF Pro Text', 'San Francisco', Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+      outline: none;
+      transition: border 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+    }
+    .form input:focus, .form textarea:focus {
+      border: 1.5px solid #FF7F50;
+      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.12);
+    }
+    .form textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    .form-btn {
+      background: #ff7f50;
+      color: #fff;
+      border: none;
+      border-radius: 24px;
+      padding: 0.9rem 2.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.15);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      outline: none;
+      margin-top: 0.5rem;
+    }
+    .form-btn:hover {
+      background: #e66b3d;
+      box-shadow: 0 8px 32px 0 rgba(255,127,80,0.20);
+      transform: translateY(-2px) scale(1.03);
+    }
+    /* FOOTER */
+    .footer {
+      background: #111;
+      color: #fff;
+      padding: 2.5rem 0 1.5rem 0;
+      text-align: center;
+      font-size: 1rem;
+      letter-spacing: 0.01em;
+      margin-top: 3rem;
+    }
+    .footer a {
+      color: #ff6b35;
+      text-decoration: underline;
+      font-weight: 500;
+    }
+    /* SCROLL ANIMATIONS */
+    .reveal {
+      opacity: 0;
+      transform: translateY(60px);
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .reveal-delay-1 {
+      transition-delay: 0.1s;
+    }
+    .reveal-delay-2 {
+      transition-delay: 0.2s;
+    }
+    .reveal-delay-3 {
+      transition-delay: 0.3s;
+    }
+    .reveal-delay-4 {
+      transition-delay: 0.4s;
+    }
+    .reveal-delay-5 {
+      transition-delay: 0.5s;
+    }
+    .fade-in-left {
+      opacity: 0;
+      transform: translateX(-40px);
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .fade-in-left.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .fade-in-right {
+      opacity: 0;
+      transform: translateX(40px);
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .fade-in-right.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .scale-in {
+      opacity: 0;
+      transform: scale(0.9);
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .scale-in.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+    /* Responsive */
+    @media (max-width: 700px) {
+      .hero-title {
+        font-size: 2.2rem;
+      }
+      .section-title {
+        font-size: 1.6rem;
+      }
+      .section-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+      }
+      .container {
+        padding: 0 1rem;
+      }
+      .why-section {
+        flex-direction: column;
+        gap: 3rem;
+      }
+      .mentors-grid, .program-highlights, .cta-section {
+        gap: 2rem;
+      }
+      .section, .section-alt {
+        padding: 5rem 0 4rem 0;
+      }
+      .hero {
+        min-height: 80vh;
+        padding: 4rem 0 3rem 0;
+      }
+      .hero-content {
+        padding: 0 1rem;
+      }
+      .hero-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+      }
+      .highlight-card, .mentor-card {
+        padding: 2rem 1.5rem;
+      }
+      .cta-section {
+        padding: 3rem 1.5rem;
+        gap: 3rem;
+      }
+      .form input, .form textarea {
+        max-width: 100%;
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+      }
+      .form-btn {
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+      }
+    }
+    /* Update hero badges */
+    .hero-badge {
+      color: #FF7F50 !important;
+    }
+    /* Update form focus states */
+    .form input:focus, .form textarea:focus {
+      border: 1.5px solid #FF7F50;
+      box-shadow: 0 2px 8px 0 rgba(255,127,80,0.08);
+    }
+    /* Update success messages */
+    #studentFormMsg, #supportFormMsg {
+      color: #FF7F50 !important;
+    }
+    /* Update testimonial names */
+    .testimonial-name {
+      color: #FF7F50 !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <div class="logo">
+        <img src="l.png" alt="Article 0 Logo" class="logo-img">
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#program" class="nav-link">Program</a>
+        <a href="#why" class="nav-link">Why Article 0</a>
+        <a href="#mentors" class="nav-link">Mentors</a>
+        <a href="#apply" class="nav-link">Apply</a>
+        <a href="#support" class="nav-link">Support</a>
+      </div>
+      <button class="nav-cta" onclick="document.getElementById('apply').scrollIntoView({behavior: 'smooth'})">Start Your Legal Journey</button>
+      <div class="nav-hamburger" id="navHamburger" aria-label="Open navigation" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <div style="display:flex; justify-content:center; margin-bottom:1.2rem;">
+        <!-- Hero legal illustration (unDraw style) -->
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin:0 auto;">
+          <!-- Building/Justice scale illustration -->
+          <rect x="10" y="40" width="60" height="30" rx="8" fill="#FF7F50" opacity="0.9"/>
+          <rect x="25" y="15" width="30" height="30" rx="8" fill="#f8f9fa" stroke="#FF7F50" stroke-width="2.5"/>
+          <rect x="35" y="25" width="10" height="20" rx="3" fill="#FF7F50"/>
+          <!-- Scale of justice -->
+          <circle cx="40" cy="35" r="3" fill="#FF7F50"/>
+          <path d="M40 32 L40 25" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+          <path d="M40 25 L35 20" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+          <path d="M40 25 L45 20" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="35" cy="20" r="2" fill="#FF7F50"/>
+          <circle cx="45" cy="20" r="2" fill="#FF7F50"/>
+        </svg>
+      </div>
+      <h1 class="hero-title">Step Into the World of Real Law</h1>
+      <div class="hero-subtitle">Ready to turn your passion for justice into real-world legal skills? Join India's most dynamic, youth-powered legal sprint and experience law like never before.</div>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1.5rem;">
+        <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
+          <span style="color:#FF7F50;">✓</span> 18 Students per Cohort
+        </div>
+        <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
+          <span style="color:#FF7F50;">✓</span> Top NLU Mentors
+        </div>
+        <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
+          <span style="color:#FF7F50;">✓</span> Real Moot Court Experience
+        </div>
+      </div>
+      <button class="hero-cta" onclick="document.getElementById('apply').scrollIntoView({behavior: 'smooth'})">Start Your Legal Journey</button>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Students in discussion, legal education" loading="lazy">
+    </div>
+  </section>
+
+  <!-- PROGRAM OVERVIEW -->
+  <section class="section" id="program">
+    <div class="container">
+      <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
+        <!-- Academic Cap Icon (Heroicons) -->
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2.25 9l9.75 6 9.75-6L12 3z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21V9" />
+        </svg>
+        Your 5-Day Legal Adventure
+      </h2>
+      <div class="section-subtitle">Dive into hands-on learning, real moot court battles, and mentorship from the best. This isn't just theory—it's your launchpad into the world of law.</div>
+      <div class="timeline">
+        <div class="timeline-step reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Day 1: Kickoff & Team Up</div>
+            <div class="timeline-desc">Meet your squad, get the inside scoop on how moot courts work, and jump into your first case study.</div>
+          </div>
+        </div>
+        <div class="timeline-step reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Day 2: Research Like a Pro</div>
+            <div class="timeline-desc">Master legal research, crack case precedents, and start building your team's winning argument.</div>
+          </div>
+        </div>
+        <div class="timeline-step reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Day 3: Mentor Power</div>
+            <div class="timeline-desc">Get one-on-one coaching from top law students and real advocates. Sharpen your strategy and argument skills.</div>
+          </div>
+        </div>
+        <div class="timeline-step reveal reveal-delay-4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Day 4: Moot Court Showdown</div>
+            <div class="timeline-desc">Step into the (virtual) courtroom, argue your case live, and get instant feedback from the pros.</div>
+          </div>
+        </div>
+        <div class="timeline-step reveal reveal-delay-5">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Day 5: Celebrate & Connect</div>
+            <div class="timeline-desc">Score feedback, win awards, and join our exclusive alumni network for ongoing mentorship.</div>
+          </div>
+        </div>
+      </div>
+      <div class="program-highlights">
+        <div class="highlight-card reveal reveal-delay-1">
+          <!-- Lightning Bolt Icon (Heroicons) -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          <div class="highlight-title">Learn by Doing</div>
+          <div class="highlight-desc">Forget boring lectures. You'll build real legal skills through action, teamwork, and expert feedback.</div>
+        </div>
+        <div class="highlight-card reveal reveal-delay-2">
+          <!-- User Group Icon (Heroicons) -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5.13a4 4 0 11-8 0 4 4 0 018 0zm6 4a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <div class="highlight-title">Mentors Who Get You</div>
+          <div class="highlight-desc">Work side-by-side with law students and advocates who know what it takes—and want to help you win.</div>
+        </div>
+        <div class="highlight-card reveal reveal-delay-3">
+          <!-- Check Circle Icon (Heroicons) -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0a9 9 0 0118 0z" />
+          </svg>
+          <div class="highlight-title">Courtroom Confidence</div>
+          <div class="highlight-desc">Experience the thrill of a real moot court. Build confidence, speak up, and think on your feet.</div>
+        </div>
+        <div class="highlight-card reveal reveal-delay-4">
+          <!-- Network Icon (Heroicons) -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2" />
+            <circle cx="12" cy="12" r="10" stroke="#FF7F50" stroke-width="1.5" fill="none"/>
+          </svg>
+          <div class="highlight-title">A Network for Life</div>
+          <div class="highlight-desc">Join a community of future legal leaders. Get support, advice, and opportunities long after the program ends.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY ARTICLE 0 MATTERS -->
+  <section class="section-alt" id="why">
+    <div class="container">
+      <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
+        <!-- Academic Cap Icon (Heroicons) -->
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2.25 9l9.75 6 9.75-6L12 3z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21V9" />
+        </svg>
+        Why Article 0?
+      </h2>
+      <div class="section-subtitle">Legal education in India needs a shakeup. We're here to make it real, practical, and accessible for everyone.</div>
+      <div class="why-section">
+        <div class="why-content fade-in-left">
+          <ul style="padding-left: 1.2em; font-size:1.08rem; color:#222; line-height:1.7;">
+            <li><b>Real-World Skills:</b> We bridge the gap between what you learn in class and what you need in court.</li>
+            <li><b>Grow Your Confidence:</b> Research, write, argue, and win—supported by mentors who care.</li>
+            <li><b>Find Your People:</b> Connect with justice-minded students and build friendships that last.</li>
+            <li><b>Open to All:</b> No matter where you're from, you belong here. We're breaking barriers, not building them.</li>
+          </ul>
+          <div class="founder-quote">"We're not just teaching law—we're building a movement. Article 0 is where your journey as a justice advocate begins."<br>— Yashasvi Sai Doddaga, Founder & Director</div>
+        </div>
+        <div class="why-image fade-in-right">
+          <!-- Minimalist legal education illustration -->
+          <svg width="100%" height="100%" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" style="padding:2rem;">
+            <!-- Background elements -->
+            <rect x="50" y="400" width="300" height="80" rx="20" fill="#FF7F50" opacity="0.1"/>
+            <rect x="80" y="420" width="240" height="40" rx="8" fill="#FF7F50" opacity="0.2"/>
+            <!-- Students/people -->
+            <circle cx="120" cy="350" r="25" fill="#FF7F50" opacity="0.8"/>
+            <circle cx="200" cy="330" r="25" fill="#FF7F50" opacity="0.8"/>
+            <circle cx="280" cy="350" r="25" fill="#FF7F50" opacity="0.8"/>
+            <!-- Connection lines -->
+            <path d="M120 350 Q160 320 200 330" stroke="#FF7F50" stroke-width="2" opacity="0.6"/>
+            <path d="M200 330 Q240 320 280 350" stroke="#FF7F50" stroke-width="2" opacity="0.6"/>
+            <!-- Books/documents -->
+            <rect x="100" y="200" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
+            <rect x="170" y="180" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
+            <rect x="240" y="200" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
+            <!-- Text lines on documents -->
+            <rect x="110" y="220" width="40" height="2" fill="white" opacity="0.8"/>
+            <rect x="110" y="230" width="35" height="2" fill="white" opacity="0.8"/>
+            <rect x="110" y="240" width="42" height="2" fill="white" opacity="0.8"/>
+            <rect x="180" y="200" width="40" height="2" fill="white" opacity="0.8"/>
+            <rect x="180" y="210" width="35" height="2" fill="white" opacity="0.8"/>
+            <rect x="180" y="220" width="42" height="2" fill="white" opacity="0.8"/>
+            <rect x="250" y="220" width="40" height="2" fill="white" opacity="0.8"/>
+            <rect x="250" y="230" width="35" height="2" fill="white" opacity="0.8"/>
+            <rect x="250" y="240" width="42" height="2" fill="white" opacity="0.8"/>
+            <!-- Lightbulb/idea -->
+            <circle cx="200" cy="120" r="30" fill="#FF7F50" opacity="0.6"/>
+            <path d="M200 90 L200 80" stroke="#FF7F50" stroke-width="3" stroke-linecap="round"/>
+            <path d="M185 95 L190 85" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+            <path d="M215 95 L210 85" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENTOR NETWORK -->
+  <section class="section" id="mentors">
+    <div class="container">
+      <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
+        <!-- User Group Icon (Heroicons) -->
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5.13a4 4 0 11-8 0 4 4 0 018 0zm6 4a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        Meet Your Mentors
+      </h2>
+      <div class="section-subtitle">Learn from the best—law students and advocates who've been where you are and want to help you go further.</div>
+      <div class="mentors-grid">
+        <div class="mentor-card reveal reveal-delay-1">
+          <img class="mentor-img" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mentor from NLU Delhi">
+          <div class="mentor-name">Aarav Mehta</div>
+          <div class="mentor-role">NLU Delhi, 3rd Year</div>
+          <div class="mentor-desc">National moot court champion with expertise in constitutional law and appellate advocacy. Passionate about democratizing legal education.</div>
+        </div>
+        <div class="mentor-card reveal reveal-delay-2">
+          <img class="mentor-img" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mentor from NALSAR">
+          <div class="mentor-name">Priya Sharma</div>
+          <div class="mentor-role">NALSAR Hyderabad, 4th Year</div>
+          <div class="mentor-desc">Research scholar specializing in international law and human rights. Published author with extensive experience in legal writing and analysis.</div>
+        </div>
+        <div class="mentor-card reveal reveal-delay-3">
+          <img class="mentor-img" src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mentor from NLUJ">
+          <div class="mentor-name">Rohan Singh</div>
+          <div class="mentor-role">NLUJ Jodhpur, 3rd Year</div>
+          <div class="mentor-desc">Oral argument specialist with High Court internship experience. Expert in criminal law and trial advocacy techniques.</div>
+        </div>
+        <div class="mentor-card reveal reveal-delay-4">
+          <img class="mentor-img" src="https://randomuser.me/api/portraits/men/77.jpg" alt="High Court Advocate">
+          <div class="mentor-name">Adv. S. Iyer</div>
+          <div class="mentor-role">High Court Advocate</div>
+          <div class="mentor-desc">Practicing advocate with 8+ years of experience in civil and constitutional matters. Dedicated to mentoring young legal professionals.</div>
+        </div>
+        <div class="mentor-card reveal reveal-delay-5">
+          <img class="mentor-img" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Mentor from NLUO">
+          <div class="mentor-name">Sneha Patil</div>
+          <div class="mentor-role">NLU Odisha, 4th Year</div>
+          <div class="mentor-desc">Peer learning facilitator and moot court coach. Specializes in corporate law and alternative dispute resolution.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section-alt">
+    <div class="container">
+      <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
+        <!-- Chat Bubble Left Right Icon (Heroicons) -->
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3.5h6m-6 3.5h3m-7.5 2.25V6.75A2.25 2.25 0 014.75 4.5h14.5A2.25 2.25 0 0121.5 6.75v10.5A2.25 2.25 0 0119.25 19.5H6.75L3 21l.75-2.25z" />
+        </svg>
+        What Alumni Say
+      </h2>
+      <div class="section-subtitle">Real stories from students who found their spark at Article 0.</div>
+      <div style="display:flex; flex-wrap:wrap; gap:3rem; justify-content:center; margin-top:4rem;">
+        <div class="reveal reveal-delay-1" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+          <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"Article 0 gave me the confidence and skills I needed to pursue law. The mentorship was invaluable, and the moot court experience was transformative."</div>
+          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Ananya Reddy, Class of 2023</div>
+          <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Now studying at NLU Delhi</div>
+        </div>
+        <div class="reveal reveal-delay-2" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+          <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"The program structure is brilliant. I learned more in 5 days than I had in months of self-study. The mentors are incredibly supportive."</div>
+          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Vikram Malhotra, Class of 2023</div>
+          <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Accepted to NALSAR Hyderabad</div>
+        </div>
+        <div class="reveal reveal-delay-3" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+          <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"Article 0 doesn't just teach law; it builds a community. I'm still connected with my mentors and fellow participants."</div>
+          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Meera Kapoor, Class of 2023</div>
+          <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Legal Research Assistant</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION: STUDENTS & SUPPORTERS -->
+  <section class="section-alt" id="apply">
+    <div class="container">
+      <div class="cta-section scale-in">
+        <div style="display:flex; justify-content:center; margin-bottom:1.2rem;">
+          <!-- Heart Handshake Icon (Heroicons) -->
+          <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+        </div>
+        <div class="cta-block reveal reveal-delay-1">
+          <div class="cta-title">Ready to Join?</div>
+          <div class="cta-desc">Seats are limited for our July 2024 cohort. <b>Apply by June 15, 2024</b> and take your first step into law.</div>
+          <form class="form" id="studentForm" action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+            <input type="hidden" name="access_key" value="3620d6ac-b6b7-41a8-aab3-c0c11856346b">
+            <input type="hidden" name="subject" value="Article 0 - New Student Application">
+            <input type="hidden" name="redirect" value="#thankyou">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="school" placeholder="School/College Name" required>
+            <button class="form-btn" type="submit">Start Your Legal Journey</button>
+            <div id="studentFormMsg" style="font-size:0.98rem; color:#ff7f50; margin-top:0.5rem; display:none;">Thank you! We'll be in touch soon.</div>
+          </form>
+        </div>
+        <div class="cta-block reveal reveal-delay-2" id="support">
+          <div class="cta-title">Want to Support Us?</div>
+          <div class="cta-desc">Partner with us to open doors for India's next generation of legal leaders.</div>
+          <form class="form" id="supportForm" action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+            <input type="hidden" name="access_key" value="3620d6ac-b6b7-41a8-aab3-c0c11856346b">
+            <input type="hidden" name="subject" value="Article 0 - New Supporter Contact">
+            <input type="hidden" name="redirect" value="#thankyou">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="How would you like to support Article 0?" required></textarea>
+            <button class="form-btn" type="submit">See What's Inside</button>
+            <div id="supportFormMsg" style="font-size:0.98rem; color:#ff7f50; margin-top:0.5rem; display:none;">Thank you! We'll reach out soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOUNDER INFO -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
+        <!-- Star User Icon (Heroicons) -->
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 17.75l-6.16 3.24 1.18-6.88L2 9.76l6.92-1.01L12 2.5l3.08 6.25 6.92 1.01-5.02 4.35 1.18 6.88z" />
+          <circle cx="12" cy="12" r="3" fill="#FF7F50"/>
+        </svg>
+        Meet the Founder
+      </h2>
+      <div class="section-subtitle">Get to know the person behind Article 0 and connect with our team.</div>
+      <div style="display:flex; flex-wrap:wrap; gap:4rem; align-items:center; justify-content:center; margin-top:4rem;">
+        <div style="flex:1 1 400px; min-width:280px; max-width:500px;">
+          <div style="font-size:1.25rem; color:#222; margin-bottom:1rem; line-height:1.4;"><b>Yashasvi Sai Doddaga</b><br>Founder & Director, Article 0</div>
+          <div style="font-size:1.1rem; color:#444; margin-bottom:0.8rem;">Email: <a href="mailto:founder@article0.org" style="color:#FF7F50;">founder@article0.org</a></div>
+          <div style="font-size:1.1rem; color:#444; margin-bottom:1.5rem;">LinkedIn: <a href="https://www.linkedin.com/in/yashasvisai/" target="_blank" style="color:#FF7F50;">linkedin.com/in/yashasvisai</a></div>
+          <div style="font-size:1.05rem; color:#555; line-height:1.7;">Visionary leader committed to democratizing legal education and empowering India's youth to become effective advocates for justice and change.</div>
+        </div>
+        <div style="flex:1 1 250px; min-width:200px; max-width:300px;">
+          <img src="f.jpeg" alt="Yashasvi Sai Doddaga" style="width:140px; height:140px; border-radius:50%; object-fit:cover; background:#e5e7eb; display:block; margin:0 auto 1rem auto; box-shadow:0 6px 30px rgba(0,0,0,0.15);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    &copy; 2024 Article 0. India's Premier Youth-Led Legal Education Accelerator. <br>
+    Empowering the next generation of legal professionals. <br>
+    Designed with <span style="color:#ff7f50;">&#10084;</span> for justice-minded students.
+  </footer>
+
+  <!-- THANK YOU SECTION -->
+  <section id="thankyou" style="display:none; text-align:center; padding:4rem 0;">
+    <h2 style="color:#ff7f50;">Thank you for your submission!</h2>
+    <p>We've received your message and will get back to you soon.</p>
+    <a href="#" onclick="window.location.hash='';window.scrollTo({top:0,behavior:'smooth'});return false;" style="color:#ff7f50;text-decoration:underline;">Back to Home</a>
+  </section>
+
+  <!-- SCRIPTS: NAV, FORMS, ANIMATIONS -->
+  <script>
+    // Hamburger menu
+    const navHamburger = document.getElementById('navHamburger');
+    const navLinks = document.getElementById('navLinks');
+    navHamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    navHamburger.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') navLinks.classList.toggle('open');
+    });
+    document.addEventListener('click', (e) => {
+      if (!navLinks.contains(e.target) && !navHamburger.contains(e.target)) {
+        navLinks.classList.remove('open');
+      }
+    });
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+        navLinks.classList.remove('open');
+      });
+    });
+    // Scroll reveal animations
+    function revealOnScroll() {
+      const elements = document.querySelectorAll('.reveal, .fade-in-left, .fade-in-right, .scale-in');
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        
+        // Trigger animation when element is 100px from entering viewport
+        if (rect.top < windowHeight - 100) {
+          el.classList.add('visible');
+        }
+      });
+    }
+    
+    // Throttle scroll events for better performance
+    function throttle(func, limit) {
+      let inThrottle;
+      return function() {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+          func.apply(context, args);
+          inThrottle = true;
+          setTimeout(() => inThrottle = false, limit);
+        }
+      }
+    }
+    
+    document.addEventListener('scroll', throttle(revealOnScroll, 100));
+    document.addEventListener('DOMContentLoaded', () => {
+      // Add animation classes to elements
+      document.querySelectorAll('.section, .section-alt, .hero, .mentors-grid .mentor-card, .program-highlights .highlight-card, .cta-section, .why-section, .footer').forEach(el => {
+        if (!el.classList.contains('reveal') && !el.classList.contains('fade-in-left') && !el.classList.contains('fade-in-right') && !el.classList.contains('scale-in')) {
+          el.classList.add('reveal');
+        }
+      });
+      
+      // Initial reveal check
+      revealOnScroll();
+      
+      // Add smooth entrance animation for hero content
+      setTimeout(() => {
+        document.querySelector('.hero-content').style.opacity = '1';
+        document.querySelector('.hero-content').style.transform = 'translateY(0)';
+      }, 300);
+    });
+    // Simulated haptic feedback (micro-interaction)
+    document.querySelectorAll('button, .nav-link, .form-btn, .cta-btn').forEach(el => {
+      el.addEventListener('mousedown', () => {
+        el.style.transform = 'scale(0.97)';
+      });
+      el.addEventListener('mouseup', () => {
+        el.style.transform = '';
+      });
+      el.addEventListener('mouseleave', () => {
+        el.style.transform = '';
+      });
+    });
+    // Simple form handling - let Web3Forms handle everything
+    document.getElementById('studentForm').addEventListener('submit', function(e) {
+      // Show success message immediately
+      document.getElementById('studentFormMsg').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('studentFormMsg').style.display = 'none';
+      }, 4000);
+    });
+    
+    document.getElementById('supportForm').addEventListener('submit', function(e) {
+      // Show success message immediately
+      document.getElementById('supportFormMsg').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('supportFormMsg').style.display = 'none';
+      }, 4000);
+    });
+
+    // Show thank you section if redirected
+    if (window.location.hash === '#thankyou') {
+      var thankyou = document.getElementById('thankyou');
+      if (thankyou) {
+        thankyou.style.display = 'block';
+        window.scrollTo({top: thankyou.offsetTop, behavior: 'smooth'});
+      }
+    }
+  </script>
+</body>
+</html> 
