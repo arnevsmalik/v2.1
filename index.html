@@ -21,8 +21,8 @@
     body {
       margin: 0;
       font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-      background: #fff;
-      color: #18181b;
+      background: #FFFFFF;
+      color: #333333;
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
       min-height: 100vh;
@@ -32,13 +32,13 @@
       font-weight: 800;
       letter-spacing: -0.02em;
       margin-bottom: 1.2rem;
-      color: #18181b;
+      color: #2E2E2E;
       font-family: 'Inter', Arial, sans-serif;
     }
     h2, .section-title {
       font-size: 2.2rem;
       font-weight: 700;
-      color: #18181b;
+      color: #2E2E2E;
       margin-bottom: 1.5rem;
       letter-spacing: -0.01em;
       text-align: center;
@@ -47,7 +47,7 @@
     h3 {
       font-size: 1.4rem;
       font-weight: 600;
-      color: #18181b;
+      color: #2E2E2E;
       margin-bottom: 0.8rem;
       font-family: 'Inter', Arial, sans-serif;
     }
@@ -70,6 +70,15 @@
     }
     .section, .section-alt {
       padding: 8rem 0 6rem 0;
+    }
+    .section {
+      background: #FFFFFF;
+    }
+    .section-alt {
+      background: #F6EBD9;
+    }
+    .hero {
+      background: #F5F1EB;
     }
     @media (max-width: 900px) {
       .nav-links {
@@ -164,47 +173,47 @@
     }
     /* Color palette */
     a {
-      color: #FF7F50;
+      color: #F4A261;
       text-decoration: none;
       transition: color 0.2s;
     }
     a:hover {
-      color: #E66B3D;
+      color: #FF8C42;
     }
     .nav-cta, .hero-cta, .cta-btn, .form-btn {
-      background: #FF7F50;
+      background: #F4A261;
       color: #fff;
       border: none;
       border-radius: 22px;
       padding: 0.7rem 2rem;
       font-size: 1.08rem;
       font-weight: 600;
-      box-shadow: 0 2px 12px 0 rgba(255,127,80,0.10);
+      box-shadow: 0 2px 12px 0 rgba(244,162,97,0.10);
       cursor: pointer;
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
       outline: none;
     }
     .nav-cta:hover, .hero-cta:hover, .cta-btn:hover, .form-btn:hover {
-      background: #E66B3D;
-      box-shadow: 0 6px 24px 0 rgba(255,127,80,0.16);
+      background: #FF8C42;
+      box-shadow: 0 6px 24px 0 rgba(244,162,97,0.16);
       transform: translateY(-2px) scale(1.04);
     }
     .highlight-title, .mentor-role {
-      color: #FF7F50;
+      color: #F4A261;
     }
     .timeline-dot {
-      background: #FF7F50;
+      background: #F4A261;
     }
     .footer a {
-      color: #FF7F50;
+      color: #F4A261;
     }
     .founder-quote {
-      color: #FF7F50;
-      border-left: 4px solid #FF7F50;
+      color: #F4A261;
+      border-left: 4px solid #F4A261;
     }
-    /* Light grey accents */
+    /* Light beige accents */
     .highlight-card, .mentor-card, .form input, .form textarea, .why-image, .hero-image {
-      background: #f8f9fa;
+      background: #F5F1EB;
     }
     /* Add more vertical spacing between major blocks */
     .program-highlights, .mentors-grid, .cta-section, .why-section {
@@ -259,7 +268,7 @@
     .nav-link {
       font-size: 1rem;
       font-weight: 500;
-      color: #222;
+      color: #2E2E2E;
       opacity: 0.85;
       transition: opacity 0.2s;
       position: relative;
@@ -269,7 +278,7 @@
       display: block;
       height: 2px;
       width: 0;
-      background: #ff7f50;
+      background: #F4A261;
       transition: width 0.2s;
       position: absolute;
       left: 0;
@@ -282,21 +291,21 @@
       width: 100%;
     }
     .nav-cta {
-      background: #ff7f50;
+      background: #F4A261;
       color: #fff;
       border: none;
       border-radius: 22px;
       padding: 0.5rem 1.5rem;
       font-size: 1rem;
       font-weight: 600;
-      box-shadow: 0 2px 8px 0 rgba(255,127,80,0.08);
+      box-shadow: 0 2px 8px 0 rgba(244,162,97,0.08);
       cursor: pointer;
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
       outline: none;
     }
     .nav-cta:hover {
-      background: #e66b3d;
-      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.12);
+      background: #FF8C42;
+      box-shadow: 0 4px 16px 0 rgba(244,162,97,0.12);
       transform: translateY(-2px) scale(1.03);
     }
     /* Hamburger */
@@ -313,7 +322,7 @@
       display: block;
       height: 3px;
       width: 100%;
-      background: #222;
+      background: #2E2E2E;
       border-radius: 2px;
       transition: all 0.3s;
     }
@@ -331,7 +340,6 @@
       justify-content: center;
       min-height: 90vh;
       padding: 6rem 0 4rem 0;
-      background: #fafafa;
       position: relative;
       overflow: hidden;
     }
@@ -356,22 +364,22 @@
       margin-right: auto;
     }
     .hero-cta {
-      background: #ff7f50;
+      background: #F4A261;
       color: #fff;
       border: none;
       border-radius: 22px;
       padding: 0.85rem 2.2rem;
       font-size: 1.15rem;
       font-weight: 700;
-      box-shadow: 0 2px 12px 0 rgba(255,127,80,0.10);
+      box-shadow: 0 2px 12px 0 rgba(244,162,97,0.10);
       cursor: pointer;
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
       outline: none;
       margin-bottom: 1.5rem;
     }
     .hero-cta:hover {
-      background: #e66b3d;
-      box-shadow: 0 6px 24px 0 rgba(255,127,80,0.16);
+      background: #FF8C42;
+      box-shadow: 0 6px 24px 0 rgba(244,162,97,0.16);
       transform: translateY(-2px) scale(1.04);
     }
     .hero-image {
@@ -382,7 +390,7 @@
       overflow: hidden;
       box-shadow: 0 8px 32px 0 rgba(0,0,0,0.10);
       aspect-ratio: 16/7;
-      background: #e5e7eb;
+      background: #F5F1EB;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -406,6 +414,10 @@
       display: flex;
       align-items: flex-start;
       gap: 2rem;
+      background: #F5F1EB;
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid #E8DCC8;
     }
     .timeline-content {
       flex: 1;
@@ -414,7 +426,7 @@
       font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
       font-size: 1.25rem;
       font-weight: 600;
-      color: #111;
+      color: #2E2E2E;
       margin-bottom: 0.5rem;
     }
     .timeline-desc {
@@ -431,7 +443,7 @@
       margin-top: 4rem;
     }
     .highlight-card {
-      background: #ffffff;
+      background: #F6EBD9;
       border-radius: 16px;
       box-shadow: 0 4px 20px 0 rgba(0,0,0,0.06);
       padding: 2.5rem 2rem;
@@ -439,17 +451,17 @@
       flex: 1 1 280px;
       text-align: center;
       transition: box-shadow 0.2s, transform 0.1s;
-      border: 1px solid #f0f0f0;
+      border: 1px solid #E8DCC8;
     }
     .highlight-card:hover {
-      box-shadow: 0 12px 40px 0 rgba(255,127,80,0.12);
+      box-shadow: 0 12px 40px 0 rgba(244,162,97,0.12);
       transform: translateY(-3px) scale(1.02);
     }
     .highlight-title {
       font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
       font-size: 1.2rem;
       font-weight: 600;
-      color: #ff7f50;
+      color: #F4A261;
       margin-bottom: 1rem;
     }
     .highlight-desc {
@@ -478,7 +490,7 @@
       border-radius: 18px;
       overflow: hidden;
       box-shadow: 0 6px 30px 0 rgba(0,0,0,0.12);
-      background: #e5e7eb;
+      background: #F5F1EB;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -494,10 +506,10 @@
     .founder-quote {
       font-size: 1.2rem;
       font-style: italic;
-      color: #ff7f50;
+      color: #F4A261;
       margin: 3rem 0 0 0;
       text-align: left;
-      border-left: 4px solid #ff7f50;
+      border-left: 4px solid #F4A261;
       padding-left: 1.5rem;
       line-height: 1.6;
     }
@@ -510,7 +522,7 @@
       margin-top: 4rem;
     }
     .mentor-card {
-      background: #ffffff;
+      background: #F6EBD9;
       border-radius: 16px;
       box-shadow: 0 4px 20px 0 rgba(0,0,0,0.06);
       padding: 2.5rem 2rem;
@@ -518,10 +530,10 @@
       flex: 1 1 200px;
       text-align: center;
       transition: box-shadow 0.2s, transform 0.1s;
-      border: 1px solid #f0f0f0;
+      border: 1px solid #E8DCC8;
     }
     .mentor-card:hover {
-      box-shadow: 0 12px 40px 0 rgba(255,127,80,0.12);
+      box-shadow: 0 12px 40px 0 rgba(244,162,97,0.12);
       transform: translateY(-3px) scale(1.02);
     }
     .mentor-img {
@@ -530,19 +542,19 @@
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 1.5rem;
-      background: #e5e7eb;
+      background: #F5F1EB;
       display: inline-block;
     }
     .mentor-name {
       font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
       font-size: 1.15rem;
       font-weight: 600;
-      color: #111;
+      color: #2E2E2E;
       margin-bottom: 0.3rem;
     }
     .mentor-role {
       font-size: 1rem;
-      color: #ff7f50;
+      color: #F4A261;
       margin-bottom: 0.5rem;
       font-weight: 500;
     }
@@ -559,11 +571,11 @@
       justify-content: center;
       align-items: center;
       margin-top: 4rem;
-      background: #ffffff;
+      background: #F5F1EB;
       border-radius: 20px;
       padding: 4rem 2rem;
       box-shadow: 0 6px 30px 0 rgba(0,0,0,0.08);
-      border: 1px solid #f0f0f0;
+      border: 1px solid #E8DCC8;
     }
     .cta-block {
       flex: 1 1 350px;
@@ -575,7 +587,7 @@
       font-family: 'SF Pro Display', 'San Francisco', Arial, sans-serif;
       font-size: 1.4rem;
       font-weight: 700;
-      color: #111;
+      color: #2E2E2E;
       margin-bottom: 1rem;
     }
     .cta-desc {
@@ -585,21 +597,21 @@
       line-height: 1.6;
     }
     .cta-btn {
-      background: #ff6b35;
+      background: #F4A261;
       color: #fff;
       border: none;
       border-radius: 22px;
       padding: 0.7rem 2rem;
       font-size: 1.08rem;
       font-weight: 600;
-      box-shadow: 0 2px 12px 0 rgba(255,107,53,0.10);
+      box-shadow: 0 2px 12px 0 rgba(244,162,97,0.10);
       cursor: pointer;
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
       outline: none;
     }
     .cta-btn:hover {
-      background: #e55a2b;
-      box-shadow: 0 6px 24px 0 rgba(255,107,53,0.16);
+      background: #FF8C42;
+      box-shadow: 0 6px 24px 0 rgba(244,162,97,0.16);
       transform: translateY(-2px) scale(1.04);
     }
     /* FORMS */
@@ -614,46 +626,46 @@
       width: 100%;
       max-width: 380px;
       padding: 0.9rem 1.2rem;
-      border: 1.5px solid #e5e7eb;
+      border: 1.5px solid #F5F1EB;
       border-radius: 14px;
       font-size: 1.05rem;
       font-family: 'SF Pro Text', 'San Francisco', Arial, sans-serif;
-      background: #ffffff;
-      color: #111;
+      background: #FFFFFF;
+      color: #2E2E2E;
       outline: none;
       transition: border 0.2s, box-shadow 0.2s;
       box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
     }
     .form input:focus, .form textarea:focus {
-      border: 1.5px solid #FF7F50;
-      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.12);
+      border: 1.5px solid #F4A261;
+      box-shadow: 0 4px 16px 0 rgba(244,162,97,0.12);
     }
     .form textarea {
       min-height: 100px;
       resize: vertical;
     }
     .form-btn {
-      background: #ff7f50;
+      background: #F4A261;
       color: #fff;
       border: none;
       border-radius: 24px;
       padding: 0.9rem 2.5rem;
       font-size: 1.1rem;
       font-weight: 600;
-      box-shadow: 0 4px 16px 0 rgba(255,127,80,0.15);
+      box-shadow: 0 4px 16px 0 rgba(244,162,97,0.15);
       cursor: pointer;
       transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
       outline: none;
       margin-top: 0.5rem;
     }
     .form-btn:hover {
-      background: #e66b3d;
-      box-shadow: 0 8px 32px 0 rgba(255,127,80,0.20);
+      background: #FF8C42;
+      box-shadow: 0 8px 32px 0 rgba(244,162,97,0.20);
       transform: translateY(-2px) scale(1.03);
     }
     /* FOOTER */
     .footer {
-      background: #111;
+      background: #2E2E2E;
       color: #fff;
       padding: 2.5rem 0 1.5rem 0;
       text-align: center;
@@ -662,7 +674,7 @@
       margin-top: 3rem;
     }
     .footer a {
-      color: #ff6b35;
+      color: #F4A261;
       text-decoration: underline;
       font-weight: 500;
     }
@@ -773,20 +785,20 @@
     }
     /* Update hero badges */
     .hero-badge {
-      color: #FF7F50 !important;
+      color: #F4A261 !important;
     }
     /* Update form focus states */
     .form input:focus, .form textarea:focus {
-      border: 1.5px solid #FF7F50;
-      box-shadow: 0 2px 8px 0 rgba(255,127,80,0.08);
+      border: 1.5px solid #F4A261;
+      box-shadow: 0 2px 8px 0 rgba(244,162,97,0.08);
     }
     /* Update success messages */
     #studentFormMsg, #supportFormMsg {
-      color: #FF7F50 !important;
+      color: #F4A261 !important;
     }
     /* Update testimonial names */
     .testimonial-name {
-      color: #FF7F50 !important;
+      color: #F4A261 !important;
     }
   </style>
 </head>
@@ -818,29 +830,29 @@
         <!-- Hero legal illustration (unDraw style) -->
         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin:0 auto;">
           <!-- Building/Justice scale illustration -->
-          <rect x="10" y="40" width="60" height="30" rx="8" fill="#FF7F50" opacity="0.9"/>
-          <rect x="25" y="15" width="30" height="30" rx="8" fill="#f8f9fa" stroke="#FF7F50" stroke-width="2.5"/>
-          <rect x="35" y="25" width="10" height="20" rx="3" fill="#FF7F50"/>
+          <rect x="10" y="40" width="60" height="30" rx="8" fill="#F4A261" opacity="0.9"/>
+          <rect x="25" y="15" width="30" height="30" rx="8" fill="#F5F1EB" stroke="#F4A261" stroke-width="2.5"/>
+          <rect x="35" y="25" width="10" height="20" rx="3" fill="#F4A261"/>
           <!-- Scale of justice -->
-          <circle cx="40" cy="35" r="3" fill="#FF7F50"/>
-          <path d="M40 32 L40 25" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
-          <path d="M40 25 L35 20" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
-          <path d="M40 25 L45 20" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="35" cy="20" r="2" fill="#FF7F50"/>
-          <circle cx="45" cy="20" r="2" fill="#FF7F50"/>
+          <circle cx="40" cy="35" r="3" fill="#F4A261"/>
+          <path d="M40 32 L40 25" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
+          <path d="M40 25 L35 20" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
+          <path d="M40 25 L45 20" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="35" cy="20" r="2" fill="#F4A261"/>
+          <circle cx="45" cy="20" r="2" fill="#F4A261"/>
         </svg>
       </div>
       <h1 class="hero-title">Step Into the World of Real Law</h1>
       <div class="hero-subtitle">Ready to turn your passion for justice into real-world legal skills? Join India's most dynamic, youth-powered legal sprint and experience law like never before.</div>
       <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1.5rem;">
         <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
-          <span style="color:#FF7F50;">✓</span> 18 Students per Cohort
+          <span style="color:#F4A261;">✓</span> 18 Students per Cohort
         </div>
         <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
-          <span style="color:#FF7F50;">✓</span> Top NLU Mentors
+          <span style="color:#F4A261;">✓</span> Top NLU Mentors
         </div>
         <div style="background:rgba(255,255,255,0.9); padding:0.5rem 1rem; border-radius:12px; font-size:0.9rem; color:#333; font-weight:500;">
-          <span style="color:#FF7F50;">✓</span> Real Moot Court Experience
+          <span style="color:#F4A261;">✓</span> Real Moot Court Experience
         </div>
       </div>
       <button class="hero-cta" onclick="document.getElementById('apply').scrollIntoView({behavior: 'smooth'})">Start Your Legal Journey</button>
@@ -855,7 +867,7 @@
     <div class="container">
       <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
         <!-- Academic Cap Icon (Heroicons) -->
-        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2.25 9l9.75 6 9.75-6L12 3z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 21V9" />
         </svg>
@@ -902,7 +914,7 @@
       <div class="program-highlights">
         <div class="highlight-card reveal reveal-delay-1">
           <!-- Lightning Bolt Icon (Heroicons) -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
           <div class="highlight-title">Learn by Doing</div>
@@ -910,7 +922,7 @@
         </div>
         <div class="highlight-card reveal reveal-delay-2">
           <!-- User Group Icon (Heroicons) -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5.13a4 4 0 11-8 0 4 4 0 018 0zm6 4a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
           <div class="highlight-title">Mentors Who Get You</div>
@@ -918,7 +930,7 @@
         </div>
         <div class="highlight-card reveal reveal-delay-3">
           <!-- Check Circle Icon (Heroicons) -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0a9 9 0 0118 0z" />
           </svg>
           <div class="highlight-title">Courtroom Confidence</div>
@@ -926,9 +938,9 @@
         </div>
         <div class="highlight-card reveal reveal-delay-4">
           <!-- Network Icon (Heroicons) -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2.5rem; height:2.5rem; margin-bottom:1rem;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2" />
-            <circle cx="12" cy="12" r="10" stroke="#FF7F50" stroke-width="1.5" fill="none"/>
+            <circle cx="12" cy="12" r="10" stroke="#F4A261" stroke-width="1.5" fill="none"/>
           </svg>
           <div class="highlight-title">A Network for Life</div>
           <div class="highlight-desc">Join a community of future legal leaders. Get support, advice, and opportunities long after the program ends.</div>
@@ -942,7 +954,7 @@
     <div class="container">
       <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
         <!-- Academic Cap Icon (Heroicons) -->
-        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L2.25 9l9.75 6 9.75-6L12 3z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 21V9" />
         </svg>
@@ -963,19 +975,19 @@
           <!-- Minimalist legal education illustration -->
           <svg width="100%" height="100%" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" style="padding:2rem;">
             <!-- Background elements -->
-            <rect x="50" y="400" width="300" height="80" rx="20" fill="#FF7F50" opacity="0.1"/>
-            <rect x="80" y="420" width="240" height="40" rx="8" fill="#FF7F50" opacity="0.2"/>
+            <rect x="50" y="400" width="300" height="80" rx="20" fill="#F4A261" opacity="0.1"/>
+            <rect x="80" y="420" width="240" height="40" rx="8" fill="#F4A261" opacity="0.2"/>
             <!-- Students/people -->
-            <circle cx="120" cy="350" r="25" fill="#FF7F50" opacity="0.8"/>
-            <circle cx="200" cy="330" r="25" fill="#FF7F50" opacity="0.8"/>
-            <circle cx="280" cy="350" r="25" fill="#FF7F50" opacity="0.8"/>
+            <circle cx="120" cy="350" r="25" fill="#F4A261" opacity="0.8"/>
+            <circle cx="200" cy="330" r="25" fill="#F4A261" opacity="0.8"/>
+            <circle cx="280" cy="350" r="25" fill="#F4A261" opacity="0.8"/>
             <!-- Connection lines -->
-            <path d="M120 350 Q160 320 200 330" stroke="#FF7F50" stroke-width="2" opacity="0.6"/>
-            <path d="M200 330 Q240 320 280 350" stroke="#FF7F50" stroke-width="2" opacity="0.6"/>
+            <path d="M120 350 Q160 320 200 330" stroke="#F4A261" stroke-width="2" opacity="0.6"/>
+            <path d="M200 330 Q240 320 280 350" stroke="#F4A261" stroke-width="2" opacity="0.6"/>
             <!-- Books/documents -->
-            <rect x="100" y="200" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
-            <rect x="170" y="180" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
-            <rect x="240" y="200" width="60" height="80" rx="4" fill="#FF7F50" opacity="0.7"/>
+            <rect x="100" y="200" width="60" height="80" rx="4" fill="#F4A261" opacity="0.7"/>
+            <rect x="170" y="180" width="60" height="80" rx="4" fill="#F4A261" opacity="0.7"/>
+            <rect x="240" y="200" width="60" height="80" rx="4" fill="#F4A261" opacity="0.7"/>
             <!-- Text lines on documents -->
             <rect x="110" y="220" width="40" height="2" fill="white" opacity="0.8"/>
             <rect x="110" y="230" width="35" height="2" fill="white" opacity="0.8"/>
@@ -987,10 +999,10 @@
             <rect x="250" y="230" width="35" height="2" fill="white" opacity="0.8"/>
             <rect x="250" y="240" width="42" height="2" fill="white" opacity="0.8"/>
             <!-- Lightbulb/idea -->
-            <circle cx="200" cy="120" r="30" fill="#FF7F50" opacity="0.6"/>
-            <path d="M200 90 L200 80" stroke="#FF7F50" stroke-width="3" stroke-linecap="round"/>
-            <path d="M185 95 L190 85" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
-            <path d="M215 95 L210 85" stroke="#FF7F50" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="200" cy="120" r="30" fill="#F4A261" opacity="0.6"/>
+            <path d="M200 90 L200 80" stroke="#F4A261" stroke-width="3" stroke-linecap="round"/>
+            <path d="M185 95 L190 85" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
+            <path d="M215 95 L210 85" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
       </div>
@@ -1002,7 +1014,7 @@
     <div class="container">
       <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
         <!-- User Group Icon (Heroicons) -->
-        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5.13a4 4 0 11-8 0 4 4 0 018 0zm6 4a4 4 0 11-8 0 4 4 0 018 0z" />
         </svg>
         Meet Your Mentors
@@ -1048,26 +1060,26 @@
     <div class="container">
       <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
         <!-- Chat Bubble Left Right Icon (Heroicons) -->
-        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3.5h6m-6 3.5h3m-7.5 2.25V6.75A2.25 2.25 0 014.75 4.5h14.5A2.25 2.25 0 0121.5 6.75v10.5A2.25 2.25 0 0119.25 19.5H6.75L3 21l.75-2.25z" />
         </svg>
         What Alumni Say
       </h2>
       <div class="section-subtitle">Real stories from students who found their spark at Article 0.</div>
       <div style="display:flex; flex-wrap:wrap; gap:3rem; justify-content:center; margin-top:4rem;">
-        <div class="reveal reveal-delay-1" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+        <div class="reveal reveal-delay-1" style="background:#F6EBD9; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #E8DCC8;">
           <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"Article 0 gave me the confidence and skills I needed to pursue law. The mentorship was invaluable, and the moot court experience was transformative."</div>
-          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Ananya Reddy, Class of 2023</div>
+          <div style="font-weight:600; color:#F4A261; font-size:1.1rem;">— Ananya Reddy, Class of 2023</div>
           <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Now studying at NLU Delhi</div>
         </div>
-        <div class="reveal reveal-delay-2" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+        <div class="reveal reveal-delay-2" style="background:#F6EBD9; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #E8DCC8;">
           <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"The program structure is brilliant. I learned more in 5 days than I had in months of self-study. The mentors are incredibly supportive."</div>
-          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Vikram Malhotra, Class of 2023</div>
+          <div style="font-weight:600; color:#F4A261; font-size:1.1rem;">— Vikram Malhotra, Class of 2023</div>
           <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Accepted to NALSAR Hyderabad</div>
         </div>
-        <div class="reveal reveal-delay-3" style="background:#fff; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #f0f0f0;">
+        <div class="reveal reveal-delay-3" style="background:#F6EBD9; padding:2.5rem; border-radius:18px; box-shadow:0 6px 30px rgba(0,0,0,0.10); max-width:380px; flex:1 1 320px; border:1px solid #E8DCC8;">
           <div style="font-style:italic; color:#333; margin-bottom:1.5rem; line-height:1.7; font-size:1.05rem;">"Article 0 doesn't just teach law; it builds a community. I'm still connected with my mentors and fellow participants."</div>
-          <div style="font-weight:600; color:#FF7F50; font-size:1.1rem;">— Meera Kapoor, Class of 2023</div>
+          <div style="font-weight:600; color:#F4A261; font-size:1.1rem;">— Meera Kapoor, Class of 2023</div>
           <div style="font-size:0.95rem; color:#666; margin-top:0.3rem;">Legal Research Assistant</div>
         </div>
       </div>
@@ -1080,7 +1092,7 @@
       <div class="cta-section scale-in">
         <div style="display:flex; justify-content:center; margin-bottom:1.2rem;">
           <!-- Heart Handshake Icon (Heroicons) -->
-          <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+          <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
           </svg>
         </div>
@@ -1121,9 +1133,9 @@
     <div class="container">
       <h2 class="section-title" style="display:flex; align-items:center; justify-content:center; gap:0.7rem;">
         <!-- Star User Icon (Heroicons) -->
-        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF7F50" style="width:2rem; height:2rem;">
+        <svg class="reveal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F4A261" style="width:2rem; height:2rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 17.75l-6.16 3.24 1.18-6.88L2 9.76l6.92-1.01L12 2.5l3.08 6.25 6.92 1.01-5.02 4.35 1.18 6.88z" />
-          <circle cx="12" cy="12" r="3" fill="#FF7F50"/>
+          <circle cx="12" cy="12" r="3" fill="#F4A261"/>
         </svg>
         Meet the Founder
       </h2>
@@ -1131,12 +1143,12 @@
       <div style="display:flex; flex-wrap:wrap; gap:4rem; align-items:center; justify-content:center; margin-top:4rem;">
         <div style="flex:1 1 400px; min-width:280px; max-width:500px;">
           <div style="font-size:1.25rem; color:#222; margin-bottom:1rem; line-height:1.4;"><b>Yashasvi Sai Doddaga</b><br>Founder & Director, Article 0</div>
-          <div style="font-size:1.1rem; color:#444; margin-bottom:0.8rem;">Email: <a href="mailto:founder@article0.org" style="color:#FF7F50;">founder@article0.org</a></div>
-          <div style="font-size:1.1rem; color:#444; margin-bottom:1.5rem;">LinkedIn: <a href="https://www.linkedin.com/in/yashasvisai/" target="_blank" style="color:#FF7F50;">linkedin.com/in/yashasvisai</a></div>
+          <div style="font-size:1.1rem; color:#444; margin-bottom:0.8rem;">Email: <a href="mailto:founder@article0.org" style="color:#F4A261;">founder@article0.org</a></div>
+          <div style="font-size:1.1rem; color:#444; margin-bottom:1.5rem;">LinkedIn: <a href="https://www.linkedin.com/in/yashasvisai/" target="_blank" style="color:#F4A261;">linkedin.com/in/yashasvisai</a></div>
           <div style="font-size:1.05rem; color:#555; line-height:1.7;">Visionary leader committed to democratizing legal education and empowering India's youth to become effective advocates for justice and change.</div>
         </div>
         <div style="flex:1 1 250px; min-width:200px; max-width:300px;">
-          <img src="f.jpeg" alt="Yashasvi Sai Doddaga" style="width:140px; height:140px; border-radius:50%; object-fit:cover; background:#e5e7eb; display:block; margin:0 auto 1rem auto; box-shadow:0 6px 30px rgba(0,0,0,0.15);">
+          <img src="f.jpeg" alt="Yashasvi Sai Doddaga" style="width:140px; height:140px; border-radius:50%; object-fit:cover; background:#F5F1EB; display:block; margin:0 auto 1rem auto; box-shadow:0 6px 30px rgba(0,0,0,0.15);">
         </div>
       </div>
     </div>
@@ -1146,14 +1158,14 @@
   <footer class="footer">
     &copy; 2024 Article 0. India's Premier Youth-Led Legal Education Accelerator. <br>
     Empowering the next generation of legal professionals. <br>
-    Designed with <span style="color:#ff7f50;">&#10084;</span> for justice-minded students.
+    Designed with <span style="color:#F4A261;">&#10084;</span> for justice-minded students.
   </footer>
 
   <!-- THANK YOU SECTION -->
   <section id="thankyou" style="display:none; text-align:center; padding:4rem 0;">
-    <h2 style="color:#ff7f50;">Thank you for your submission!</h2>
+    <h2 style="color:#F4A261;">Thank you for your submission!</h2>
     <p>We've received your message and will get back to you soon.</p>
-    <a href="#" onclick="window.location.hash='';window.scrollTo({top:0,behavior:'smooth'});return false;" style="color:#ff7f50;text-decoration:underline;">Back to Home</a>
+    <a href="#" onclick="window.location.hash='';window.scrollTo({top:0,behavior:'smooth'});return false;" style="color:#F4A261;text-decoration:underline;">Back to Home</a>
   </section>
 
   <!-- SCRIPTS: NAV, FORMS, ANIMATIONS -->
